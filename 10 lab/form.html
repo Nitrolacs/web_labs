@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+	<head>
+		
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="author" content="Terentev Nikita">
+		<meta name="keywords" content="electric transport, transport, electrocars, electric cars, tesla cars, electric vehicles">
+		<meta name="robots" content="index, all">
+		<meta name="description" content="Сайт, посвящённый электромобилям и всему что с ними связано.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+		<!--Icon-->
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+		<title>Электромобили</title>
+
+	</head>
+
+	<body class="form">
+
+		<div class="container">
+			<h1 class="form">Обратная связь</h1>
+			<h3 class="form">Оставьте ваши данные и мы свяжемся с Вами</h3>
+
+			<div class="row">
+
+				<form action="#" name="sub_form" id="sub_form">
+
+					<div class="input-group">
+						<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+						<input type="text" placeholder="Введите имя" class="form-control" id="name" name="name" data-reg="^[А-ЯЁ][а-яё]*$">
+					</div>
+					<label for="name">Только русские буквы</label>
+					
+					<div class="input-group">
+						<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+						<input type="text" placeholder="Введите фамилию" class="form-control" id="surname" name="surname" data-reg="^[А-ЯЁ][а-яё]*$" disabled>
+					</div>
+					<label for="surname">Только русские буквы</label>
+
+					<div class="input-group">
+						<span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+						<input type="email" placeholder="Введите электронную почту" class="form-control" id="email" name="email" data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$">
+					</div>
+					<label for="email">В формате: user@mail.com</label>
+	
+					<div class="input-group">
+						<span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span></span>
+						<input type="tel" placeholder="Введите телефон" class="form-control" id="phone" name="phone" data-reg="^((\+7|7|8)+([0-9]){10})$">
+					</div>
+					<label for="phone">В формате: +79000000000, 89000000000 или 79000000000</label>
+
+					<div class="input-group">
+						<span class="input-group-addon"><span class="glyphicon glyphicon-comment"></span></span>
+						<input type="text" placeholder="Введите сообщение" class="form-control" id="message" name="message" data-reg="">
+					</div>
+					<label for="phone">Не оставлять пустым</label>
+
+					<div>
+						<input class="btn btn-primary" id="button" name="button" type="submit" value="Отправить">
+					</div>
+					
+				</form>
+				
+			</div>
+		</div>
+
+		<a href="index.html" class="btn btn-danger form">Домой</a>
+
+		<!-- загрузка скрипта из внешнего файла -->
+		<script type="text/javascript" src="js/form.js"></script>
+
+	</body>
+
+</html>
